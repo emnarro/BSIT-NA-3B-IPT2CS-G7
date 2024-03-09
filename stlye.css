@@ -17,19 +17,11 @@ body {
     font-family: PopLight;
 }
 .pict{
-    color: rgb(0, 0, 0);
-    background: radial-gradient(rgb(255, 111, 0),rgb(255, 200, 0));
-}
-.left{
-    width: 150px;
-    height: 350px;
-}
-.right{
-    width: 200px;
-    height: 500px;
+    color: rgb(232, 227, 227);
+    background: radial-gradient(rgb(5, 4, 25),rgb(20, 30, 81));
 }
 .abc{
-    display: flex;
+    display: flex;   
 }
 .nav{
     min-height: 10vh;
@@ -40,23 +32,26 @@ body {
     align-items: center;
     padding: 20px 0px;
 }
-.poo{
-    width: 100px;
-    height: 100px;
-}
 .group{
     font-size: 30px;
     display: flex;
-    justify-content: center;
 }
 .profile {
-    min-height: 90vh;
+    min-height: 93vh;
     display: grid;
-    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+    grid-template-columns: 2% 1fr 1fr 1fr 2%;
+}
+.left{
+    width: 200px;
+    height: 400px;
+}
+.right{
+    width: 200px;
+    height: 400px;
 }
 .hero{
     overflow: hidden;
-    height: 250;
+    height: 500px;
     align-self: center;
     justify-self: center;
     display: flex;
@@ -85,15 +80,20 @@ transform: translate(0%, 10%);
 }
 .details h1{
     font-size: 40px;
-    color: black;
+    color: white;
     font-family: PopRegular;
 }
 .details h2{
-    color: black;
-    font-size: 20px;
+    color: white;
+    font-size: 24px;
     padding: 20px 0px;
 }
+.details h5{
+    font-size: 23px;
+    color: white;
+}
 .details p{
-    font-size: 15px;
+    color: white;
+    font-size: 20px;
     padding: 8px 0px 32px 0px;
 }
