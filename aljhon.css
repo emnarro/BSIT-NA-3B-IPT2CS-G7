@@ -33,7 +33,7 @@ body{
     animation: sildeRight 1s ease forwards;
 
 }
-.navbar a{
+.navbar a,b{
     display: inline-block;
     font-size: #ffff;
     color: rgb(255, 255, 255);
@@ -44,7 +44,7 @@ body{
     opacity: 0;
     animation: slideTop .5s ease forwards;
 }
-.navbar a:hover{
+.navbar a,b:hover{
     color: #0ef;
 }
 .home {
