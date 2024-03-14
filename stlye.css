@@ -17,8 +17,8 @@ body {
     font-family: PopLight;
 }
 .pict{
-    color: rgb(0, 0, 0);
-    background: radial-gradient(rgb(255, 111, 0),rgb(255, 200, 0));
+    color: rgb(255, 255, 255);
+    background: radial-gradient(rgb(5, 12, 73),rgb(19, 15, 135));
 }
 .left{
     width: 150px;
@@ -85,15 +85,19 @@ transform: translate(0%, 10%);
 }
 .details h1{
     font-size: 40px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: PopRegular;
 }
 .details h2{
-    color: black;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.details h5{
     font-size: 20px;
     padding: 20px 0px;
 }
 .details p{
-    font-size: 15px;
+    font-size: 18px;
     padding: 8px 0px 32px 0px;
 }
